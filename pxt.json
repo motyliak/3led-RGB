@@ -1,5 +1,5 @@
 {
-    "name": "rgb led",
+    "name": "3led-RGB",
     "description": "",
     "dependencies": {
         "core": "*",
