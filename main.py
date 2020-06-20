@@ -22,7 +22,7 @@ led2 = 1
 led3 = 1
 
 def on_forever():
-    pins.digital_write_pin(DigitalPin.P1, led1)
-    pins.digital_write_pin(DigitalPin.P2, led2)
-    pins.digital_write_pin(DigitalPin.P3, led3)
+    pins.digital_write_pin(DigitalPin.P0, led1)
+    pins.digital_write_pin(DigitalPin.P1, led2)
+    pins.digital_write_pin(DigitalPin.P2, led3)
 basic.forever(on_forever)
